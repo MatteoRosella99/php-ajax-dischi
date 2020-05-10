@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="app.css">
+
+  </head>
+  <body>
+    <div class="insiemecanzoni">
+
+    </div>
+
+
+    <script class="template" type="text/x-handlebars-template">
+      <div class="sezione">
+        <div class="immagine">
+          <img src="{{{img}}}" alt="">
+        </div>
+        <ul>
+          <li><strong>{{titolo}}</strong></li>
+          <li><strong>{{genere}}</strong></li>
+          <li><strong>{{autore}}</strong></li>
+          <li><strong>{{anno}}</strong></li>
+          <li class="descrizione" maxlength = "11">{{descrizione}}</li>
+        </ul>
+      </div>
+    </script>
+    <img src="" alt="">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

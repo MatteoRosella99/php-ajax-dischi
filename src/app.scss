@@ -1,0 +1,38 @@
+body{
+  .insiemecanzoni{
+    &:after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .sezione{
+      .immagine{
+        img{
+          width: 100%;
+          height: 100%;
+          padding-top: 20px;
+        }
+        height: 50%;
+        padding: 0 10%;
+      }
+      ul{
+        li{
+          color: white;
+          padding-top: 10px;
+        }
+        padding: 0;
+        list-style-type: none;
+      }
+      text-align: center;
+      float: left;
+      width: 20%;
+      height: 300px;
+      background-color: black;
+      margin:2.4%;
+      border: 1px solid blue;
+    }
+    width: 70%;
+    margin: auto;
+  }
+  background-color: yellow;
+}

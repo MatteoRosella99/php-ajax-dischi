@@ -1,0 +1,46 @@
+body {
+  background-color: yellow;
+}
+
+body .insiemecanzoni {
+  width: 70%;
+  margin: auto;
+}
+
+body .insiemecanzoni:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body .insiemecanzoni .sezione {
+  text-align: center;
+  float: left;
+  width: 20%;
+  height: 300px;
+  background-color: black;
+  margin: 2.4%;
+  border: 1px solid blue;
+}
+
+body .insiemecanzoni .sezione .immagine {
+  height: 50%;
+  padding: 0 10%;
+}
+
+body .insiemecanzoni .sezione .immagine img {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+body .insiemecanzoni .sezione ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+body .insiemecanzoni .sezione ul li {
+  color: white;
+  padding-top: 10px;
+}
+
